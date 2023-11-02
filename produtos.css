@@ -1,0 +1,184 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    overflow-x: hidden;
+    background-color: rgba( 0, 0, 0, 0.1 );
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+html{
+  background-image: url("joanna-kosinska-llLttk4TgT4-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+    height: 20vh;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 5vh;
+    border: 3px solid white;
+}
+
+h1{
+font-size: 65px;
+font-family: 'Open Sans Condensed';
+letter-spacing: 0.05em;
+color: white;
+}
+
+.header-logo{
+    width: 50px;
+    height: 50px;
+}
+
+main{
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: right;
+    margin-right: 2rem ;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside{
+  width: 50%;
+  height: 80%;
+  float: right;
+  box-sizing: border-box;
+  margin-top: 5vh;
+  border: 3px solid white;
+  display: flex;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  gap: 16px;
+  padding-left: 12px;
+}
+
+aside::-webkit-scrollbar{
+  width: 12px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 6px;
+}
+
+.fechar-pedido{
+  width: 20%;
+  height: 10%;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.card-produto{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  width: 31%;
+  height: 30%;
+}
+
+.img-produto{
+  width: 4.5rem;
+  height: 4.5rem;
+  background-size: cover;
+}
+
+.botao-carrinho{
+  width: 50%;
+  height: 25%;
+  border: 3px solid white;
+  box-sizing: border-box;
+}
+
+.icone-carrinho{
+  width: 1.2rem;
+  height: 1.2rem;
+  cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    flex-direction: row;
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    margin: 0;
+  }
+
+.box-info{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    height: 80%;
+    width: 30%;
+}
+
+  footer h4 {
+    color: rgb(180, 176, 176);
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  footer ul li a {
+    color: rgb(206, 203, 203);
+    font-size: 16px;
+    text-decoration: none;
+  }
+
+  .icones-redes-sociais li {
+    display: inline-block;
+  }
+  
+  .icones-redes-sociais li:last-child {
+    margin-right: 0;
+  }
+  
+  .icones-redes-sociais li a {
+    color: white;
+    font-size: 18px;
+  }
+
+  .midia-content{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .icones-redes-sociais {
+    display: block;
+    margin-right: 2rem;
+    width: 42px;
+    height: 42px;
+  }
